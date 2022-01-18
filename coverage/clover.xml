@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1642514247072" clover="3.2.0">
-  <project timestamp="1642514247072" name="All files">
-    <metrics statements="14" coveredstatements="10" conditionals="6" coveredconditionals="0" methods="10" coveredmethods="2" elements="30" coveredelements="12" complexity="0" loc="14" ncloc="14" packages="2" files="2" classes="2"/>
+<coverage generated="1642515498278" clover="3.2.0">
+  <project timestamp="1642515498278" name="All files">
+    <metrics statements="14" coveredstatements="11" conditionals="6" coveredconditionals="0" methods="10" coveredmethods="4" elements="30" coveredelements="15" complexity="0" loc="14" ncloc="14" packages="2" files="2" classes="2"/>
     <package name="build">
       <metrics statements="7" coveredstatements="5" conditionals="3" coveredconditionals="0" methods="5" coveredmethods="1"/>
       <file name="module.js" path="/Users/ryu/dev/ryunosuke0922/famous-mountains-in-japan/build/module.js">
@@ -16,16 +16,16 @@
       </file>
     </package>
     <package name="src">
-      <metrics statements="7" coveredstatements="5" conditionals="3" coveredconditionals="0" methods="5" coveredmethods="1"/>
+      <metrics statements="7" coveredstatements="6" conditionals="3" coveredconditionals="0" methods="5" coveredmethods="3"/>
       <file name="module.ts" path="/Users/ryu/dev/ryunosuke0922/famous-mountains-in-japan/src/module.ts">
-        <metrics statements="7" coveredstatements="5" conditionals="3" coveredconditionals="0" methods="5" coveredmethods="1"/>
+        <metrics statements="7" coveredstatements="6" conditionals="3" coveredconditionals="0" methods="5" coveredmethods="3"/>
         <line num="13" count="1" type="stmt"/>
         <line num="60" count="1" type="stmt"/>
         <line num="61" count="1" type="stmt"/>
         <line num="64" count="1" type="stmt"/>
         <line num="65" count="0" type="cond" truecount="0" falsecount="3"/>
         <line num="68" count="1" type="stmt"/>
-        <line num="69" count="0" type="stmt"/>
+        <line num="69" count="4" type="stmt"/>
       </file>
     </package>
   </project>
