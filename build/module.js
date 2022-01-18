@@ -6,6 +6,8 @@ const data_100FamousMountainsInJapan = [
         elevation: 1721,
         mountainSystem: "利尻島",
         prefectures: "北海道",
+        longitude: 45.1782689,
+        latitude: 141.0884924,
         remarks: "",
     },
     {
@@ -15,6 +17,8 @@ const data_100FamousMountainsInJapan = [
         elevation: 1660,
         mountainSystem: "知床半島",
         prefectures: "北海道",
+        longitude: 44.0757667,
+        latitude: 145.1046053,
         remarks: "",
     },
     {
@@ -24,9 +28,28 @@ const data_100FamousMountainsInJapan = [
         elevation: 1547,
         mountainSystem: "知床半島",
         prefectures: "北海道",
+        longitude: 43.7659236,
+        latitude: 144.6999134,
+        remarks: "",
+    },
+    {
+        no: 4,
+        name: "大峰山(八経ヶ岳)",
+        kanaName: "おおみねさん(はっきょうがたけ)",
+        elevation: 1915,
+        mountainSystem: "大峰山脈",
+        prefectures: "奈良県",
+        longitude: 34.1720258,
+        latitude: 135.8900616,
         remarks: "",
     },
 ];
 export const get100FamousMountainsInJapan = () => {
     return data_100FamousMountainsInJapan;
+};
+export const get100FamousMountainsInJapan_hokkaido = () => {
+    return data_100FamousMountainsInJapan.filter(d => d.no === 1 || 2 || 3);
+};
+export const get100FamousMountainsInJapan_kansai = () => {
+    return data_100FamousMountainsInJapan.filter(d => d.no === 4);
 };

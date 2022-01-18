@@ -5,6 +5,10 @@ export declare type MountainsData = {
     elevation: number;
     mountainSystem: string;
     prefectures: string;
+    longitude: number;
+    latitude: number;
     remarks: string;
 };
 export declare const get100FamousMountainsInJapan: () => MountainsData[];
+export declare const get100FamousMountainsInJapan_hokkaido: () => MountainsData[];
+export declare const get100FamousMountainsInJapan_kansai: () => MountainsData[];
