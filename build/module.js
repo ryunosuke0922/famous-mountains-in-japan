@@ -83,7 +83,7 @@ const data_100FamousMountainsInJapan_hokkaido = [
     },
 ];
 export const get100FamousMountainsInJapan_hokkaido = () => {
-    return data_100FamousMountainsInJapan_hokkaido.filter(d => d.no === 1 || 2 || 3);
+    return data_100FamousMountainsInJapan_hokkaido;
 };
 const data_100FamousMountainsInJapan_kansai = [
     {
@@ -99,7 +99,7 @@ const data_100FamousMountainsInJapan_kansai = [
     },
 ];
 export const get100FamousMountainsInJapan_kansai = () => {
-    return data_100FamousMountainsInJapan_kansai.filter(d => d.no === 4);
+    return data_100FamousMountainsInJapan_kansai;
 };
 const data_100FamousMountainsInJapan_elevation = [
     {
