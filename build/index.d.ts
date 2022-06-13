@@ -1,1 +1,1 @@
-export { get100FamousMountainsInJapan, MountainsData } from "./module.js";
+export { get100FamousMountainsInJapan, MountainsData } from './module.js'
