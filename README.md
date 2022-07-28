@@ -1,12 +1,10 @@
-日本百名山
-
 <p align="center">
   <a href="https://famous-mountains-in-japan.web.app/">
     <img width="70%" src="https://github.com/ryunosuke0922/kongo/blob/master/public/images/img04.jpg" />
   </a>
 </p>
 
-<h1 align="center">日本百名山のデータ</h1>
+<h1 align="center">日本百名山のデータ🗻</h1>
 
 ## Install💎
 
@@ -20,13 +18,9 @@ Or
 npm install --save-dev git+https://github.com/ryunosuke0922/famous-mountains-in-japan.git
 ```
 
-[React example](https://github.com/ryunosuke0922/kongo/blob/master/src/pages/index.tsx)
-
-
 ## 例🚀
 
-使用リポジトリ
-https://github.com/ryunosuke0922/kongo
+[React example](https://github.com/ryunosuke0922/kongo/blob/master/src/pages/index.tsx)
 
 ```js
 import { get100FamousMountainsInJapan } from 'famous-mountains-in-japan'
@@ -47,7 +41,18 @@ const Home: NextPage = () => {
 export default Home
 ```
 
-[サイト](https://famous-mountains-in-japan.web.app/)
+
+## データ⛰
+
+[全てのデータ](https://github.com/ryunosuke0922/famous-mountains-in-japan/blob/master/src/module.ts)
+
+|  カラム  |  内容  |
+| ---- | ---- |
+|  name  |  山の名前(例:火打山)  |
+|  kanaName  |  かな(例:ひうちやま)  |
+|  elevation  |  標高(例:2462)  |
+|  mountainSystem  |  山系(例:頸城山塊)  |
+|  prefectures  |  都道府県(例:新潟県)  |
 
 ## Lisence👩🏻‍⚖️ 
 
