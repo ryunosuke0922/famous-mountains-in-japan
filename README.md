@@ -44,7 +44,7 @@ export default Home
 
 ## データ⛰
 
-[全てのデータ](https://github.com/ryunosuke0922/famous-mountains-in-japan/blob/master/src/module.ts)
+[全ての山のデータ](https://github.com/ryunosuke0922/famous-mountains-in-japan/blob/master/src/module.ts)
 
 |  カラム  |  内容  |
 | ---- | ---- |
