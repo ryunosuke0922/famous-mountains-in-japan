@@ -1,4 +1,12 @@
 export {
   get100FamousMountainsInJapan,
-  MountainsData
+  getChubuRegionMountains,
+  getChugokuRegionMountains,
+  getHokkaidoRegionMountains,
+  getKansaiRegionMountains,
+  getKantoRegionMountains,
+  getKyushuokinawaRegionMountains,
+  getShikokuRegionMountains,
+  getTohokuRegionMountains,
+  MountainsData,
 } from "./module.js";

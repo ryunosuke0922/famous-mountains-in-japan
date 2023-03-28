@@ -1,1 +1,1 @@
-export { get100FamousMountainsInJapan } from "./module.js";
+export { get100FamousMountainsInJapan, getChubuRegionMountains, getChugokuRegionMountains, getHokkaidoRegionMountains, getKansaiRegionMountains, getKantoRegionMountains, getKyushuokinawaRegionMountains, getShikokuRegionMountains, getTohokuRegionMountains, } from "./module.js";

@@ -7,6 +7,9 @@
   "publishConfig": {
     "access": "public"
   },
+  "engines": {
+    "node": "18.x"
+  },
   "repository": "https://github.com/ryunosuke0922/famous-mountains-in-japan.git",
   "author": "ryunosuke0922 <ryumaeda0922@gmail.com>",
   "license": "MIT",
@@ -16,12 +19,16 @@
     "@babel/preset-typescript": "^7.13.0",
     "@types/jest": "^26.0.23",
     "babel-jest": "^27.0.2",
+    "copyfiles": "^2.4.1",
     "jest": "^27.0.3",
+    "prettier": "^2.8.7",
     "typescript": "^4.3.2"
   },
   "scripts": {
-    "prepare": "tsc",
-    "test": "jest"
+    "copy-json": "copyfiles -u 1 \"src/**/*.json\" build",
+    "prepare": "tsc && npm run copy-json",
+    "test": "jest",
+    "format": "prettier --write 'src/**/*.ts'"
   },
   "type": "module"
 }

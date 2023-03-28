@@ -12,3 +12,11 @@ export declare type MountainsData = {
     remarks: string;
 };
 export declare const get100FamousMountainsInJapan: () => MountainsData[];
+export declare const getChubuRegionMountains: () => MountainsData[];
+export declare const getChugokuRegionMountains: () => MountainsData[];
+export declare const getHokkaidoRegionMountains: () => MountainsData[];
+export declare const getKansaiRegionMountains: () => MountainsData[];
+export declare const getKantoRegionMountains: () => MountainsData[];
+export declare const getKyushuokinawaRegionMountains: () => MountainsData[];
+export declare const getShikokuRegionMountains: () => MountainsData[];
+export declare const getTohokuRegionMountains: () => MountainsData[];
