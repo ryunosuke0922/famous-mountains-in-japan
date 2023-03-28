@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1679999099886" clover="3.2.0">
-  <project timestamp="1679999099886" name="All files">
-    <metrics statements="84" coveredstatements="35" conditionals="0" coveredconditionals="0" methods="36" coveredmethods="8" elements="120" coveredelements="43" complexity="0" loc="84" ncloc="84" packages="2" files="2" classes="2"/>
+<coverage generated="1680008056552" clover="3.2.0">
+  <project timestamp="1680008056553" name="All files">
+    <metrics statements="89" coveredstatements="40" conditionals="0" coveredconditionals="0" methods="40" coveredmethods="12" elements="129" coveredelements="52" complexity="0" loc="89" ncloc="89" packages="2" files="2" classes="2"/>
     <package name="build">
-      <metrics statements="38" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="18" coveredmethods="4"/>
+      <metrics statements="40" coveredstatements="19" conditionals="0" coveredconditionals="0" methods="20" coveredmethods="6"/>
       <file name="module.js" path="/Users/ryu/dev/ryunosuke0922/famous-mountains-in-japan/build/module.js">
-        <metrics statements="38" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="18" coveredmethods="4"/>
+        <metrics statements="40" coveredstatements="19" conditionals="0" coveredconditionals="0" methods="20" coveredmethods="6"/>
         <line num="3" count="1" type="stmt"/>
-        <line num="4" count="6" type="stmt"/>
-        <line num="5" count="6" type="stmt"/>
-        <line num="6" count="6" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
+        <line num="5" count="7" type="stmt"/>
+        <line num="6" count="7" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
         <line num="9" count="5" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
@@ -44,16 +44,18 @@
         <line num="54" count="0" type="stmt"/>
         <line num="55" count="0" type="stmt"/>
         <line num="58" count="0" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="61" count="100" type="stmt"/>
       </file>
     </package>
     <package name="src">
-      <metrics statements="46" coveredstatements="18" conditionals="0" coveredconditionals="0" methods="18" coveredmethods="4"/>
+      <metrics statements="49" coveredstatements="21" conditionals="0" coveredconditionals="0" methods="20" coveredmethods="6"/>
       <file name="module.ts" path="/Users/ryu/dev/ryunosuke0922/famous-mountains-in-japan/src/module.ts">
-        <metrics statements="46" coveredstatements="18" conditionals="0" coveredconditionals="0" methods="18" coveredmethods="4"/>
+        <metrics statements="49" coveredstatements="21" conditionals="0" coveredconditionals="0" methods="20" coveredmethods="6"/>
         <line num="18" count="1" type="stmt"/>
-        <line num="19" count="6" type="stmt"/>
-        <line num="20" count="6" type="stmt"/>
-        <line num="21" count="6" type="stmt"/>
+        <line num="19" count="7" type="stmt"/>
+        <line num="20" count="7" type="stmt"/>
+        <line num="21" count="7" type="stmt"/>
         <line num="24" count="1" type="stmt"/>
         <line num="25" count="5" type="stmt"/>
         <line num="28" count="1" type="stmt"/>
@@ -96,6 +98,9 @@
         <line num="93" count="0" type="stmt"/>
         <line num="96" count="0" type="stmt"/>
         <line num="97" count="0" type="stmt"/>
+        <line num="101" count="1" type="stmt"/>
+        <line num="104" count="1" type="stmt"/>
+        <line num="105" count="100" type="stmt"/>
       </file>
     </package>
   </project>

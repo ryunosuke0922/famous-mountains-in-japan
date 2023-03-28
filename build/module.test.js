@@ -1,4 +1,4 @@
-import { get100FamousMountainsInJapan, getKansaiRegionMountains, } from "./module";
+import { get100FamousMountainsInJapan, getKansaiRegionMountains, getMountainsByElevation, } from "./module";
 test("Check if the first mountain is Rishiri", () => {
     var _a;
     expect((_a = get100FamousMountainsInJapan().find((d) => d.no === 1)) === null || _a === void 0 ? void 0 : _a.name).toBe("利尻岳");
@@ -29,4 +29,11 @@ test("Check if the Kansai region mountains are correctly retrieved", () => {
     expect(kansaiRegionMountains[1].no).toBe(90);
     expect(kansaiRegionMountains[2].name).toBe("大峰山");
     expect(kansaiRegionMountains[2].no).toBe(91);
+});
+describe("getMountainsByElevation", () => {
+    test("returns an array that includes no.59 when the minimum elevation is 3000", () => {
+        const filteredMountains = getMountainsByElevation(3000);
+        const no59Mountain = filteredMountains.find((mountain) => mountain.no === 59);
+        expect(no59Mountain).toBeTruthy();
+    });
 });

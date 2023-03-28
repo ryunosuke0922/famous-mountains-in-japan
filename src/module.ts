@@ -97,3 +97,11 @@ export const getTohokuRegionMountains = (): MountainsData[] => {
     kansaiRegionIds.includes(mountain.no)
   );
 };
+
+export const getMountainsByElevation = (
+  minElevation: number
+): MountainsData[] => {
+  return load100FamousMountainsInJapan().filter(
+    (mountain) => mountain.elevation >= minElevation
+  );
+};

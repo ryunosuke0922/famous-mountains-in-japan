@@ -20,3 +20,4 @@ export declare const getKantoRegionMountains: () => MountainsData[];
 export declare const getKyushuokinawaRegionMountains: () => MountainsData[];
 export declare const getShikokuRegionMountains: () => MountainsData[];
 export declare const getTohokuRegionMountains: () => MountainsData[];
+export declare const getMountainsByElevation: (minElevation: number) => MountainsData[];
